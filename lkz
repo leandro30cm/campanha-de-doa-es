@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adote um Amigo - Doação de Animais</title>
+    <style>
+        /* Estilos Globais */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+            text-align: center;
+        }
+
+        h1 {
+            color: #4CAF50;
+            margin-bottom: 30px;
+        }
+
+        /* Estilo do Card do Animal */
+        .pet-card {
+            max-width: 350px;
+            margin: 20px auto;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            padding-bottom: 15px;
+        }
+
+        .pet-image {
+            width: 100%;
+            height: 250px;
+            background-color: #ccc; /* Cor de fundo para simular a imagem */
+            background-image: url('placeholder-pet.jpg'); /* Substitua por uma imagem real */
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-style: italic;
+            color: #666;
+            margin-bottom: 15px;
+        }
+
+        .pet-info {
+            padding: 0 15px;
+            text-align: left;
+        }
+
+        .pet-info h2 {
+            color: #388e3c;
+            margin-top: 0;
+            margin-bottom: 5px;
+        }
+
+        .pet-info p {
+            margin: 5px 0;
+            line-height: 1.4;
+            font-size: 0.95em;
+        }
+
+        /* Estilo do Botão */
+        .adopt-btn {
+            display: inline-block;
+            background-color: #ff9800;
+            color: white;
+            padding: 10px 20px;
+            margin-top: 20px;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .adopt-btn:hover {
+            background-color: #f57c00;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>✨ Nossos Animais Prontos para Adoção ✨</h1>
+
+    <div class="pet-card">
+        <div class="pet-image">
+            
+            </div>
+        <div class="pet-info">
+            <h2>Mel 🐕</h2>
+            <p><strong>Espécie:</strong> Cachorro</p>
+            <p><strong>Raça:</strong> Vira-Lata (SRD)</p>
+            <p><strong>Idade:</strong> 2 anos</p>
+            <p><strong>Porte:</strong> Médio</p>
+            <p><strong>Temperamento:</strong> Brincalhona e muito dócil. Se dá bem com crianças e outros animais.</p>
+        </div>
+        <a href="#" class="adopt-btn">Quero Adotar a Mel</a>
+    </div>
+
+    <p style="margin-top: 40px; font-size: 0.9em;">**Observação:** Este é um template de exemplo. Você precisará adicionar mais cards e links reais para o processo de adoção.</p>
+
+</body>
+</html>
